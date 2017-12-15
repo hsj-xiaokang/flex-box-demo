@@ -50,11 +50,11 @@ a {
 	line-height: 400px;
 }
 
-
+/*1、flex-direction属性*/
 .box-1 {
 	flex-direction: row;
 }
-
+/*2、flex-wrap属性*/
 .box-2 {
 	flex-direction: row;
 	flex-wrap: nowrap;
@@ -69,11 +69,11 @@ a {
 	flex-direction: row;
 	flex-wrap: wrap-reverse;
 }
-
+/*3、flex-flow*/
 .box-5 {
 	flex-flow: row nowrap;
 }
-
+/*4、justify-content属性*/
 .box-6 {
 	justify-content: flex-start;
 }
@@ -89,7 +89,7 @@ a {
 .box-10 {
 	justify-content: space-around;
 }
-
+/*5、align-items属性*/
 .box-11 {
 	align-items: flex-start;
 }
@@ -117,7 +117,7 @@ a {
 .box-15 .box-item {
 	height: auto;
 }
-
+/*6、align-content属性*/
 .box-16 {
 	flex-wrap: wrap;
 	align-content: flex-start;
@@ -145,7 +145,7 @@ a {
 .box-21 .box-item {
 	height: auto;
 }
-
+/*项目的属性*/
 .box-22 .order {
 	order: -1;
 }
